@@ -1,7 +1,6 @@
 Rs-Zip
 
 Rs-Zip is a pure Rust-based CLI tool that implements custom data compression and symmetric encryption — all built using only the Rust standard library with no external dependencies.
-Features
 
     Huffman Coding: Efficient entropy encoding using a Huffman tree.
 
