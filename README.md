@@ -1,6 +1,6 @@
-Rs-Zip
+Rust-Zip
 -------
-Rs-Zip is a pure Rust-based CLI tool that implements custom data compression and symmetric encryption — all built using only the Rust standard library, with no external dependencies.
+Rust-Zip is a pure Rust-based CLI tool that implements custom data compression and symmetric encryption — all built using only the Rust standard library, with no external dependencies.
 
 This project is designed for educational and experimental purposes, illustrating how classic compression and encryption algorithms can be implemented from scratch. It includes:
 
@@ -12,7 +12,7 @@ This project is designed for educational and experimental purposes, illustrating
 
 Important Notice
 -----------------
-Rs-Zip’s encryption is NOT (yet) production-grade or cryptographically secure.
+Rust-Zip’s encryption is NOT (yet) production-grade or cryptographically secure.
 I plan to add my own secure AES (or other) encryption implementations using only Rust's standard library.
 
 This tool is meant for learning, experimentation, and personal use only.
@@ -26,3 +26,9 @@ Clone the repository and run:
     cargo run
 
 Then follow the on-screen options to compress or encrypt files.
+
+You can also compile the binary and run that instead using rustc:
+
+    rustc src/main.rs
+
+    ./main
